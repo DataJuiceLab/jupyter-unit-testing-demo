@@ -16,6 +16,8 @@ The example notebook calculates summary data for when devices begin charging (i.
 3. Open Jupyter Lab (`jupyter lab`) to view, edit, and manually run tests
 4. Run `pytest --nbmake` to run the test suite
 
+## Losant Setup
+
 The repository comes with a sample data input file ("battery-state-reports-last-30-days"). To link to your own data using the Losant template application this demo used:
 
 1. Create a Losant sandbox account (or log into an existing Losant account)
