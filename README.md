@@ -25,7 +25,8 @@ The repository comes with a sample data input file ("battery-state-reports-last-
 3. Enable the device state workflow
 5. Create an empty Data Table, "battery charging stats" (no are columns necessary)
 4. Add a notebook
-    a. Upload the "battery-state.ipynb" notebook file
+    a. Upload the "battery-state.ipynb" notebook file. 
+        i. Note: Losant does not curently support the 'id' property in Jupyter 3 cells. Check that these have not been added automatically if you have trouble uploading.
     b. Add an input source
         i. type: device data
         ii. time range: last 30 days
